@@ -24,7 +24,7 @@ app.post("/webhook", (req, res) => {
 
   let reply;
   if (intent === "Default Welcome Intent" || intent === "Welcome") {
-    reply = "Siema! Odpowiada Cloud Run ";
+    reply = "Siemanko! Odpowiada Cloud Run 🏃‍♀️ ";
   } else {
     reply = `Webhook działa. Intent: ${intent}`;
   }
